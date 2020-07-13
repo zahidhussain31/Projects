@@ -16,6 +16,8 @@ public class DaysOfTheWeek {
 		for(int i = daysOfWeek.length - 1; i >= 0 ; i--) {
 			System.out.println(daysOfWeek[i]);
 		}
+		String i = daysOfWeek.toString();
+		System.out.println(i);
 	}
-
+	
 }

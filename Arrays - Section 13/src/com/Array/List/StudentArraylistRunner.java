@@ -29,6 +29,7 @@ public class StudentArraylistRunner {
 		
 		studentAL.removeAtIndex(2);
 		System.out.println(studentAL);
+		
 	}
 
 }

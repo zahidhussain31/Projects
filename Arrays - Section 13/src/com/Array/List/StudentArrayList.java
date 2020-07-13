@@ -12,7 +12,6 @@ public class StudentArrayList {
 	private ArrayList<Integer> marks = new ArrayList<>();
 	
 	
-	
 	public StudentArrayList(String name, int... marks) {
 		super();
 		this.name = name;
@@ -51,9 +50,13 @@ public class StudentArrayList {
 	public String toString() {
 		return name + marks;
 	}
+	
+	
+	
 	public void addNewMark(int mark) {
 		marks.add(mark);
 	}
+	
 	public void removeAtIndex(int index) {
 		marks.remove(index);
 	}
